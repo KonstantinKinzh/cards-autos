@@ -1,0 +1,101 @@
+.auto-card {
+    position: relative;
+    width: 22vw;
+    height: 23vw;
+    background-color: #f1f0f0;
+    z-index: 1;
+    transition: all .3s ease;
+}
+
+.auto-card:hover {
+    box-shadow: 0 0 4px #FF9900;
+}
+
+.auto-card:hover .tools {
+    display: flex;
+    opacity: 1;
+}
+
+.tools {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    padding-right: 1vw;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 2.3vw;
+}
+
+.name {
+    margin-bottom: 2vw;
+    padding-top: 1vw;
+    background-image:
+        linear-gradient(to right, #000000, #333333, #D5D5D5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all .3s ease;
+}
+
+.auto-card:hover .name {
+    text-shadow: 0 0 8px #FF9900;
+    /* background-image: none; */
+}
+
+.model {
+    margin-bottom: 2vw;
+    padding-top: 1vw;
+    background-image:
+        linear-gradient(to right, #000000, #333333, #D5D5D5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.auto-card:hover .model {
+    text-shadow: 0 0 8px #FF9900;
+}
+
+.price-year {
+    font-weight: 500;
+    font-size: 1.5vw;
+    width: 100%;
+    position: absolute;
+    bottom: 1vw;
+    color: #5c5c5c;
+}
+
+.color {
+    margin-bottom: 1.3vw;
+    padding-left: 1vw;
+    text-shadow: 0px 0px 2px #b3b3b0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+.price {
+    padding-left: 1vw;
+    text-shadow: 0px 0px 2px #b3b3b0;
+}
+
+.year {
+    padding-right: 1vw;
+    text-shadow: 0px 0px 2px #b3b3b0;
+}

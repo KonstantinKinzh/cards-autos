@@ -1,0 +1,1 @@
+export { CardsAuto } from "./cards-auto";

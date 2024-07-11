@@ -1,0 +1,12 @@
+.header {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    margin: 0 auto;
+    width: 91vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}

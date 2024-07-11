@@ -1,0 +1,32 @@
+.external-area {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+}
+
+.menu-sorting {
+    position: absolute;
+    top: 3vw;
+    left: 6vw;
+    display: inline-block;
+    width: 10vw;
+    border: 3px solid #efefef;
+    background-color: #ffffff;
+    border-radius: 0.2vw;
+    z-index: 2;
+}
+
+.menu-title {
+    margin: 0 auto;
+    padding-top: 1vw;
+    margin-bottom: 1vw;
+    text-align: center;
+    width: 100%;
+    font-weight: 500;
+    font-size: 1vw;
+    color: #787878;
+    text-shadow: 0 0 1px #787878;
+}

@@ -1,0 +1,1 @@
+export { PopupEditData } from "./popupEditData";

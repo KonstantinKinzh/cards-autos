@@ -1,0 +1,14 @@
+.btn-change-data {
+    width: 14vw;
+    height: 8vh;
+    font-weight: 500;
+    font-size: 1.3vw;
+    color: white;
+    border: none;
+    background-color: #FF9900;
+    transition: background-color .2s ease;
+}
+
+.btn-change-data:active {
+    background-color: #FFCC66;
+}

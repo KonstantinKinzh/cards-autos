@@ -1,0 +1,11 @@
+.close-popup {
+    position: absolute;
+    top: 2vw;
+    right: 1.6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    z-index: 2;
+}

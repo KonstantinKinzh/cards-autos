@@ -1,0 +1,24 @@
+.input-params {
+    margin-bottom: 1vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.param-card {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 1.7vw;
+    text-shadow: 0 0 10px #b3b3b0;
+}
+
+.param-card-input {
+    width: 25vw;
+    height: 1.6vw;
+    border: none;
+    border: 1px solid #b3b3b0;
+    box-shadow: 0px 0px 2px 0px #b3b3b0;
+    border-radius: 3px;
+    outline: none;
+    transition: border .2s ease, box-shadow .2s ease;
+}
